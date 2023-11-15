@@ -22,8 +22,8 @@ const MOCK_CONTACTS = [
 
 export const HeroSection = () => {
     return (
-        <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 lg:pb-[110px]">
-            <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
+        <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 pt-32 lg:pb-[110px]">
+            <div className="container flex sm:items-start items-center justify-between flex-col-reverse lg:flex-row">
                 <div className="w-full lg:max-w-[530px]">
                     <p className="font-mono text-emerald-400">Oi! Meu nome é</p>
                     <h2 className="text-4xl font-medium mt-2">Pedro Silva</h2>
